@@ -90,7 +90,11 @@ h1, h2, h3, h4, h5, h6 {
 .section-title.left h2 {
     text-align-last: left;
 }
-
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 
 
@@ -121,6 +125,9 @@ nav ul li a {
 
 
 /* our-plants-area starts */
+.our-plants-area {
+    margin-bottom: 120px;
+}
 .plants-wrap {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -231,6 +238,9 @@ h5.plant-name {
 
 
 /*deal-area starts*/
+.latest-deals-area {
+    padding-bottom: 120px;
+}
 .deals-wrap {
     display: flex;
     gap: 20px;
@@ -299,23 +309,6 @@ h5.plant-name {
 
 
 
-/*.deals-wrap > div {
-    width: 30%;
-}*/
-
-
-
-
-
-/*.deals-wrap {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2);
-    gap: 20px;
-}
-#deal-3 {
-    grid-row: span 2;
-}
 
 
 
@@ -324,23 +317,82 @@ h5.plant-name {
 
 
 
-.single-deal {
-    position: relative;
-    border-radius: 10px;
-}
-.deal-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.deal-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 100%;
-    z-index: 1;
-    color: #fff;
-    transform: translate(-50%, -50%);
+
+
+/*subscription-area strarts*/
+.subscription-area {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/news-letter-bg.png);
     text-align: center;
+    padding: 150px 0;
 }
-*/
+.subscription-area .section-title h2 {
+    color: #fff;
+}
+.subscription-form {
+    position: relative;
+    width: 100%;
+    margin: 0 75px;
+}
+.subscription-form input {
+    width: 100%;
+    padding: 25px 30px;
+    border: 0;
+    font-size: 22px;
+}
+.subscription-form input:focus {
+    outline: 0;
+}
+.subscription-form button {
+    background-color: #E95A08;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 185px;
+    border: 0;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer starts*/
+footer {
+    display: flex;
+    gap: 30px;
+    padding: 100px 0;
+}
+.footer-content {
+    width: 35%;
+}
+.footer-content img {
+    margin-bottom: 20px;
+}
+.footer-link {
+    width: 40%;
+}
+.footer-link li {
+    width: 50%;
+    float: left;
+    margin-bottom: 15px;
+}
+.footer-social {
+    width: 20%;
+} 
+.footer-social a {
+    margin-right: 10px;
+}
