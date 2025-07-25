@@ -1,31 +1,20 @@
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 15px;
-    line-height: 1.5;
-  }
-  /*.section-title {
-    padding-left: 15px;
-    padding-right: 15px;
-  }*/
-  .section-title h2 {
-    font-size: 24px;
-  }
-  .section-title br {
-    display: none;
-  }
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
   .site-container {
     width: 100%;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
-  /*base css end*/
-
-
-
-  .header-area nav ul {
-    display: none;
-  }
-  /*header-area end*/
-  
   .hero-area {
     flex-direction: column;
     height: auto;
@@ -39,10 +28,74 @@
   }
   /*hero-area end*/
 
+  .flowers-and-plant-lover-wrap {
+    flex-direction: column;
+  }
 
+  .subscription-form {
+    margin: 0 0;
+  }
+  .subscription-form button {
+    width: auto;
+    padding: 0 25px;
+  }
+  /*.subscription-area end*/
 
-
-
+  foter a {
+    font-size: 14px;
+  }
+  .footer-content p br {
+    display: none;
+  }
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  body {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .section-title h2 {
+    font-size: 24px;
+  }
+  .section-title br {
+    display: none;
+  }
+  .site-container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  /*base css end*/
+  a.brand-logo {
+    padding: 15px 0;
+  }
+  .header-area nav ul {
+    display: none;
+  }
+  /*header-area end*/
+  .hero-area {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 70px;
+  }
+  .hero-content {
+    order: 2;
+  }
+  .hero-content h2 {
+      font-size: 24px;
+  }
+  .hero-image {
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .hero-image img {
+    max-width: 100%;
+  }
+  /*hero-area end*/
+  .our-plants-area {
+    margin-bottom: 0;
+  }
   .plants-wrap {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
@@ -50,10 +103,9 @@
   }
   h5.plant-name {
     font-size: 18px;
-    margin-bottom: 7px;
+    margin-bottom: 3px;
   }
   .pnalnt-price {
-    font-weight: 500;
     font-size: 18px;
     margin-bottom: 7px;
   }
@@ -62,13 +114,9 @@
     text-transform: capitalize;
   }
   /*our-plants-area end*/
-
-
-
-
-
   .flowers-and-plant-lover-wrap {
     flex-direction: column;
+    gap: 30px;
   }
   .flowers-and-plant-lover-content h2 {
     font-size: 24px;
@@ -80,19 +128,11 @@
     display: none;
   }
   /*flowers-and-plant-lover-area end*/
-
-
-
-
-
-
-
-
-
-
-
   .latest-deals-area {
-    padding: 100px 15px;
+    padding: 50px 15px;
+  }
+  .latest-deals-area .section-title {
+    margin-bottom: 35px;
   }
   .deals-wrap {
     flex-direction: column;
@@ -103,17 +143,24 @@
     width: 100%;
     height: 205px;
   }
+  .single-deal.deal-1 .deal-content h4,
+  .single-deal.deal-2 .deal-content h4, 
   .single-deal.deal-3 .deal-content h4 {
-    font-size: 16px;
+    font-size: 20px;
+    text-transform: capitalize;
   }
   .single-deal.deal-3 .deal-content a {
     font-size: 15px;
   }
   /*latest-deals-area end*/
+  .subscription-area .section-title {
+    margin-bottom: 20px;
+  }
+  .subscription-area .section-title h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+  }
 
-
-
-  
   .subscription-form {
     margin: 0 0
   }
@@ -127,11 +174,6 @@
     font-size: 18px;
 }
   /*.subscription-area end*/
-
-
-
-
-
   footer.site-container {
     flex-direction: column;
     padding: 50px 15px;
@@ -146,25 +188,12 @@
     width: 100%;
     float: none;
   }
+
+  .footer-social a {
+    margin-right: 15px;
+  }
+  .footer-social a:last-child {
+    margin-right: 0;
+  }
   /*footer end*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
