@@ -44,8 +44,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
-
-
 /* repeated css starts */
 .site-container {
     width: 1140px;
@@ -100,7 +98,6 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
-
 /* header css starts */
 .header-area {
     padding: 50px 0;
@@ -115,8 +112,6 @@ a.cart {
     color: #000;
 }
 
-
-
 /* hero-area starts */
 .hero-area {
     height: 720px;
@@ -127,9 +122,6 @@ a.cart {
 .hero-content h2 span {
     color: #E95A08;
 }
-
-
-
 
 /* our-plants-area starts */
 .our-plants-area {
@@ -171,20 +163,6 @@ h5.plant-name {
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*.flowers-and-plant-lover-area starts*/
 .flowers-and-plant-lover-wrap {
     gap: 50px;
@@ -212,37 +190,6 @@ h5.plant-name {
 .flowers-and-plant-lover-content li:last-child {
     margin-bottom: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*deal-area starts*/
 .latest-deals-area {
@@ -314,18 +261,6 @@ h5.plant-name {
     font-size: 28px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*subscription-area strarts*/
 .subscription-area {
     background-position: center;
@@ -341,7 +276,6 @@ h5.plant-name {
 .subscription-form {
     position: relative;
     width: 100%;
-    margin: 0 75px;
 }
 .subscription-form input {
     width: 100%;
@@ -363,19 +297,6 @@ h5.plant-name {
     border: 0;
     font-size: 22px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*footer starts*/
 footer {
@@ -403,3 +324,4 @@ footer {
 .footer-social a {
     margin-right: 10px;
 }
+/*footer end*/
