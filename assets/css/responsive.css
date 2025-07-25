@@ -5,7 +5,19 @@
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-  
+  .site-container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .subscription-form {
+    margin: 0 0;
+    padding: 0 25px;
+  }
+  .subscription-form button {
+    right: 25px;
+  }
 }
  
 /* Tablet desktop :768px. */
@@ -26,12 +38,21 @@
   .hero-content h2 {
       font-size: 24px;
   }
+  .our-plants-area .section-title p br {
+    display: none;
+  }
   /*hero-area end*/
-
   .flowers-and-plant-lover-wrap {
     flex-direction: column;
   }
+  .add-cart-btn {
+    padding: 8px 8px;
+    text-transform: capitalize;
+  }
 
+  .latest-deals-area .section-title p br {
+    display: none;
+  }
   .subscription-form {
     margin: 0 0;
   }
@@ -52,7 +73,7 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
   body {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
   }
   .section-title h2 {
