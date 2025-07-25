@@ -95,7 +95,9 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
   display: table;
 }
-
+.d-n {
+    display: none;
+}
 
 
 /* header css starts */
@@ -120,6 +122,9 @@ nav ul li a {
 }
 .hero-content h2 span {
     color: #E95A08;
+}
+.hero-image img {
+    max-width: 100%;
 }
 
 
@@ -394,5 +399,5 @@ footer {
     width: 20%;
 } 
 .footer-social a {
-    margin-right: 10px;
+    margin-right: 15px;
 }

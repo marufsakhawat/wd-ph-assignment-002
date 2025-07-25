@@ -1,0 +1,170 @@
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  /*.section-title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }*/
+  .section-title h2 {
+    font-size: 24px;
+  }
+  .section-title br {
+    display: none;
+  }
+  .site-container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  /*base css end*/
+
+
+
+  .header-area nav ul {
+    display: none;
+  }
+  /*header-area end*/
+  
+  .hero-area {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 70px;
+  }
+  .hero-content {
+    order: 2;
+  }
+  .hero-content h2 {
+      font-size: 24px;
+  }
+  /*hero-area end*/
+
+
+
+
+
+  .plants-wrap {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  h5.plant-name {
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+  .pnalnt-price {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+  .add-cart-btn {
+    padding: 7px 10px;
+    text-transform: capitalize;
+  }
+  /*our-plants-area end*/
+
+
+
+
+
+  .flowers-and-plant-lover-wrap {
+    flex-direction: column;
+  }
+  .flowers-and-plant-lover-content h2 {
+    font-size: 24px;
+  }
+  .flowers-and-plant-lover-image > img {
+    width: 100%;
+  }
+  .badge-image {
+    display: none;
+  }
+  /*flowers-and-plant-lover-area end*/
+
+
+
+
+
+
+
+
+
+
+
+  .latest-deals-area {
+    padding: 100px 15px;
+  }
+  .deals-wrap {
+    flex-direction: column;
+  }
+  .single-deal.deal-1,
+  .single-deal.deal-2,
+  .single-deal.deal-3 {
+    width: 100%;
+    height: 205px;
+  }
+  .single-deal.deal-3 .deal-content h4 {
+    font-size: 16px;
+  }
+  .single-deal.deal-3 .deal-content a {
+    font-size: 15px;
+  }
+  /*latest-deals-area end*/
+
+
+
+  
+  .subscription-form {
+    margin: 0 0
+  }
+  .subscription-form input {
+    padding: 18px 15px;
+    font-size: 16px;
+  }
+  .subscription-form button {
+    width: auto;
+    padding: 0 25px;
+    font-size: 18px;
+}
+  /*.subscription-area end*/
+
+
+
+
+
+  footer.site-container {
+    flex-direction: column;
+    padding: 50px 15px;
+  }
+  footer div {
+    width: 100% !important;
+  }
+  .footer-content p br {
+    display: none;
+  }
+  .footer-link li {
+    width: 100%;
+    float: none;
+  }
+  /*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
